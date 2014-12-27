@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B7035D1A4F5C0A009A5488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B7035C1A4F5C0A009A5488 /* main.m */; };
+		A7B703601A4F5C0A009A5488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B7035F1A4F5C0A009A5488 /* AppDelegate.m */; };
+		A7B703631A4F5C0A009A5488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B703621A4F5C0A009A5488 /* ViewController.m */; };
+		A7B703661A4F5C0A009A5488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B703641A4F5C0A009A5488 /* Main.storyboard */; };
+		A7B703681A4F5C0A009A5488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B703671A4F5C0A009A5488 /* Images.xcassets */; };
+		A7B7036B1A4F5C0A009A5488 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B703691A4F5C0A009A5488 /* LaunchScreen.xib */; };
+		A7B703771A4F5C0A009A5488 /* WaldosWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B703761A4F5C0A009A5488 /* WaldosWebTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B703711A4F5C0A009A5488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B7034F1A4F5C0A009A5488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B703561A4F5C0A009A5488;
+			remoteInfo = WaldosWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7B703571A4F5C0A009A5488 /* WaldosWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaldosWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B7035B1A4F5C0A009A5488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B7035C1A4F5C0A009A5488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7B7035E1A4F5C0A009A5488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7B7035F1A4F5C0A009A5488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7B703611A4F5C0A009A5488 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7B703621A4F5C0A009A5488 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7B703651A4F5C0A009A5488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7B703671A4F5C0A009A5488 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7B7036A1A4F5C0A009A5488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7B703701A4F5C0A009A5488 /* WaldosWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaldosWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B703751A4F5C0A009A5488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B703761A4F5C0A009A5488 /* WaldosWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaldosWebTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B703541A4F5C0A009A5488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7036D1A4F5C0A009A5488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B7034E1A4F5C0A009A5488 = {
+			isa = PBXGroup;
+			children = (
+				A7B703591A4F5C0A009A5488 /* WaldosWeb */,
+				A7B703731A4F5C0A009A5488 /* WaldosWebTests */,
+				A7B703581A4F5C0A009A5488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B703581A4F5C0A009A5488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B703571A4F5C0A009A5488 /* WaldosWeb.app */,
+				A7B703701A4F5C0A009A5488 /* WaldosWebTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B703591A4F5C0A009A5488 /* WaldosWeb */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7035E1A4F5C0A009A5488 /* AppDelegate.h */,
+				A7B7035F1A4F5C0A009A5488 /* AppDelegate.m */,
+				A7B703611A4F5C0A009A5488 /* ViewController.h */,
+				A7B703621A4F5C0A009A5488 /* ViewController.m */,
+				A7B703641A4F5C0A009A5488 /* Main.storyboard */,
+				A7B703671A4F5C0A009A5488 /* Images.xcassets */,
+				A7B703691A4F5C0A009A5488 /* LaunchScreen.xib */,
+				A7B7035A1A4F5C0A009A5488 /* Supporting Files */,
+			);
+			path = WaldosWeb;
+			sourceTree = "<group>";
+		};
+		A7B7035A1A4F5C0A009A5488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7035B1A4F5C0A009A5488 /* Info.plist */,
+				A7B7035C1A4F5C0A009A5488 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7B703731A4F5C0A009A5488 /* WaldosWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B703761A4F5C0A009A5488 /* WaldosWebTests.m */,
+				A7B703741A4F5C0A009A5488 /* Supporting Files */,
+			);
+			path = WaldosWebTests;
+			sourceTree = "<group>";
+		};
+		A7B703741A4F5C0A009A5488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B703751A4F5C0A009A5488 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B703561A4F5C0A009A5488 /* WaldosWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B7037A1A4F5C0A009A5488 /* Build configuration list for PBXNativeTarget "WaldosWeb" */;
+			buildPhases = (
+				A7B703531A4F5C0A009A5488 /* Sources */,
+				A7B703541A4F5C0A009A5488 /* Frameworks */,
+				A7B703551A4F5C0A009A5488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaldosWeb;
+			productName = WaldosWeb;
+			productReference = A7B703571A4F5C0A009A5488 /* WaldosWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7B7036F1A4F5C0A009A5488 /* WaldosWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B7037D1A4F5C0A009A5488 /* Build configuration list for PBXNativeTarget "WaldosWebTests" */;
+			buildPhases = (
+				A7B7036C1A4F5C0A009A5488 /* Sources */,
+				A7B7036D1A4F5C0A009A5488 /* Frameworks */,
+				A7B7036E1A4F5C0A009A5488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B703721A4F5C0A009A5488 /* PBXTargetDependency */,
+			);
+			name = WaldosWebTests;
+			productName = WaldosWebTests;
+			productReference = A7B703701A4F5C0A009A5488 /* WaldosWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B7034F1A4F5C0A009A5488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Johnny Parizek";
+				TargetAttributes = {
+					A7B703561A4F5C0A009A5488 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A7B7036F1A4F5C0A009A5488 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A7B703561A4F5C0A009A5488;
+					};
+				};
+			};
+			buildConfigurationList = A7B703521A4F5C0A009A5488 /* Build configuration list for PBXProject "WaldosWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B7034E1A4F5C0A009A5488;
+			productRefGroup = A7B703581A4F5C0A009A5488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B703561A4F5C0A009A5488 /* WaldosWeb */,
+				A7B7036F1A4F5C0A009A5488 /* WaldosWebTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B703551A4F5C0A009A5488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B703661A4F5C0A009A5488 /* Main.storyboard in Resources */,
+				A7B7036B1A4F5C0A009A5488 /* LaunchScreen.xib in Resources */,
+				A7B703681A4F5C0A009A5488 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7036E1A4F5C0A009A5488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B703531A4F5C0A009A5488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B703631A4F5C0A009A5488 /* ViewController.m in Sources */,
+				A7B703601A4F5C0A009A5488 /* AppDelegate.m in Sources */,
+				A7B7035D1A4F5C0A009A5488 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7036C1A4F5C0A009A5488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B703771A4F5C0A009A5488 /* WaldosWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7B703721A4F5C0A009A5488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B703561A4F5C0A009A5488 /* WaldosWeb */;
+			targetProxy = A7B703711A4F5C0A009A5488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7B703641A4F5C0A009A5488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B703651A4F5C0A009A5488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7B703691A4F5C0A009A5488 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B7036A1A4F5C0A009A5488 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B703781A4F5C0A009A5488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7B703791A4F5C0A009A5488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B7037B1A4F5C0A009A5488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaldosWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7B7037C1A4F5C0A009A5488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaldosWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7B7037E1A4F5C0A009A5488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaldosWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaldosWeb.app/WaldosWeb";
+			};
+			name = Debug;
+		};
+		A7B7037F1A4F5C0A009A5488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaldosWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaldosWeb.app/WaldosWeb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B703521A4F5C0A009A5488 /* Build configuration list for PBXProject "WaldosWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B703781A4F5C0A009A5488 /* Debug */,
+				A7B703791A4F5C0A009A5488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B7037A1A4F5C0A009A5488 /* Build configuration list for PBXNativeTarget "WaldosWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B7037B1A4F5C0A009A5488 /* Debug */,
+				A7B7037C1A4F5C0A009A5488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7B7037D1A4F5C0A009A5488 /* Build configuration list for PBXNativeTarget "WaldosWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B7037E1A4F5C0A009A5488 /* Debug */,
+				A7B7037F1A4F5C0A009A5488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B7034F1A4F5C0A009A5488 /* Project object */;
+}

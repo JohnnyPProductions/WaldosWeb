@@ -81,11 +81,11 @@
 		A7B703591A4F5C0A009A5488 /* WaldosWeb */ = {
 			isa = PBXGroup;
 			children = (
+				A7B703641A4F5C0A009A5488 /* Main.storyboard */,
 				A7B7035E1A4F5C0A009A5488 /* AppDelegate.h */,
 				A7B7035F1A4F5C0A009A5488 /* AppDelegate.m */,
 				A7B703611A4F5C0A009A5488 /* ViewController.h */,
 				A7B703621A4F5C0A009A5488 /* ViewController.m */,
-				A7B703641A4F5C0A009A5488 /* Main.storyboard */,
 				A7B703671A4F5C0A009A5488 /* Images.xcassets */,
 				A7B703691A4F5C0A009A5488 /* LaunchScreen.xib */,
 				A7B7035A1A4F5C0A009A5488 /* Supporting Files */,

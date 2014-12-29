@@ -14,6 +14,7 @@
 		A7B703681A4F5C0A009A5488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B703671A4F5C0A009A5488 /* Images.xcassets */; };
 		A7B7036B1A4F5C0A009A5488 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B703691A4F5C0A009A5488 /* LaunchScreen.xib */; };
 		A7B703771A4F5C0A009A5488 /* WaldosWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B703761A4F5C0A009A5488 /* WaldosWebTests.m */; };
+		A7B703821A50EFAA009A5488 /* WaldoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B703811A50EFAA009A5488 /* WaldoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A7B703701A4F5C0A009A5488 /* WaldosWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaldosWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B703751A4F5C0A009A5488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B703761A4F5C0A009A5488 /* WaldosWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaldosWebTests.m; sourceTree = "<group>"; };
+		A7B703801A50EFAA009A5488 /* WaldoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaldoViewController.h; sourceTree = "<group>"; };
+		A7B703811A50EFAA009A5488 /* WaldoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaldoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				A7B703641A4F5C0A009A5488 /* Main.storyboard */,
+				A7B703801A50EFAA009A5488 /* WaldoViewController.h */,
+				A7B703811A50EFAA009A5488 /* WaldoViewController.m */,
 				A7B7035E1A4F5C0A009A5488 /* AppDelegate.h */,
 				A7B7035F1A4F5C0A009A5488 /* AppDelegate.m */,
 				A7B703611A4F5C0A009A5488 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				A7B703631A4F5C0A009A5488 /* ViewController.m in Sources */,
 				A7B703601A4F5C0A009A5488 /* AppDelegate.m in Sources */,
+				A7B703821A50EFAA009A5488 /* WaldoViewController.m in Sources */,
 				A7B7035D1A4F5C0A009A5488 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
